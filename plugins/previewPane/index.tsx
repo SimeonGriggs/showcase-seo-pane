@@ -78,7 +78,7 @@ export const previewDocumentNode = ({
               keywords: `seo.keywords`,
               synonyms: `seo.synonyms`,
               url: async (doc) => {
-                console.log(`previewUrl`, resolvePreviewUrl({ slug: doc?.slug?.current, getClient }))
+                // console.log(`previewUrl`, resolvePreviewUrl({ slug: doc?.slug?.current, getClient }))
 
                 return await resolvePreviewUrl({ slug: doc?.slug?.current, getClient })
               },

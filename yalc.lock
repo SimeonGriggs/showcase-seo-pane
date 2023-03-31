@@ -2,7 +2,8 @@
   "version": "v1",
   "packages": {
     "sanity-plugin-seo-pane": {
-      "signature": "14905ce2c5bc02918ebd573bfc0ab570"
+      "signature": "048e1cd930b65dd0113631fcdf56c44c",
+      "replaced": "^2.0.0"
     }
   }
 }

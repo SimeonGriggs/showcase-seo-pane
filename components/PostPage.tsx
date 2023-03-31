@@ -27,7 +27,7 @@ export default function PostPage(props: {
   }
 
   return (
-    <Layout preview={preview} loading={loading}>
+    <Layout preview={Boolean(preview)} loading={loading}>
       <Container>
         <BlogHeader title={title} level={2} />
         {preview && !post ? (
@@ -40,6 +40,7 @@ export default function PostPage(props: {
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
+                slug={post.slug}
               />
               <PostBody content={post.content} />
             </article>
